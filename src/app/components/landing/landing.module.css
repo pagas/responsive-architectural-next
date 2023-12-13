@@ -12,7 +12,7 @@
     font-size: 30rem;
     width: 100%;
     text-align: center;
-    font-family: "Caveat", cursive;
+    font-family: var(--caveat-font), cursive;
     color: #31363d;
     opacity: .5;
 }
@@ -30,7 +30,7 @@
 
 .logo span:nth-child(2) {
     font-size: 5rem;
-    font-family: "Caveat", cursive;
+    font-family: var(--caveat-font), cursive;
     font-weight: bold;
     color: var(--theme-color);
 }
@@ -112,7 +112,7 @@
 }
 
 .prof span {
-    font-family: "Caveat", cursive;
+    font-family: var(--caveat-font), cursive;
     font-size: 3rem;
     font-weight: bold;
     text-transform: capitalize;
@@ -122,7 +122,7 @@
 
 .about {
     width: 60rem;
-    font-family: "Caveat", cursive;
+    font-family: var(--caveat-font), cursive;
     font-size: 2.5rem;
     line-height: 1;
     color: #a9abae;
@@ -133,7 +133,7 @@
     margin-bottom: 5rem;
 }
 
-.social-media i {
+.icon {
     font-size: 2.5rem;
     color: #fff;
     margin-right: 2rem;

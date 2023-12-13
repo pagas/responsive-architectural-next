@@ -1,5 +1,7 @@
 import styles from './landing.module.css';
-import Image from 'next/image'
+import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Landing() {
     return (
@@ -21,9 +23,9 @@ export default function Landing() {
                     <h3 className={styles.prof}>I am <span>Web Developer</span></h3>
                     <p className={styles.about}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, sequi?</p>
                     <div className={styles['social-media']}>
-                        <i className="fa-brands fa-facebook-f"></i>
-                        <i className="fa-brands fa-instagram"></i>
-                        <i className="fa-brands fa-twitter"></i>
+                        <FontAwesomeIcon icon={faFacebook} className={styles.icon} />
+                        <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
+                        <FontAwesomeIcon icon={faTwitter} className={styles.icon} />
                     </div>
                     <div className={styles.cv}>
                         <button type="button" className={`${styles.btn} ${styles['cv-btn']}`}>Downdload cv</button>

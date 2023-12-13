@@ -1,6 +1,13 @@
 import type { Metadata } from 'next'
 import { Caveat, Rowdies } from 'next/font/google'
+
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
+
 import './globals.css'
+
+
 
 const caveat = Caveat({
   subsets: ['latin'],
