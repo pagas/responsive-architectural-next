@@ -1,4 +1,5 @@
 import styles from './landing.module.css';
+import sharedStyles from '../../styles/shared.module.css'
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -14,7 +15,7 @@ export default function Landing() {
                 <span>Dev</span>
             </div>
             <div className={styles.banner}>
-                <div className={styles['section-border']}>
+                <div className={`${sharedStyles['section-border']} ${styles['section-border']}`}>
 
                 </div>
                 <div className={styles['developer-info']}>
