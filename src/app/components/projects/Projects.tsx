@@ -4,6 +4,8 @@ import sharedStyles from '../../styles/shared.module.css';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Header from '../UI/header/Header';
+import SubHeader from '../UI/sub-header/SubHeader';
 
 export default function Projects() {
   return (
@@ -11,10 +13,9 @@ export default function Projects() {
       <h1 className={sharedStyles['section-bg-heading']}>
         My Projects
       </h1>
-      <h1 className={styles['section-heading']}>
-        Portfolio
-      </h1>
-      <h3 className={styles['sub-heading']}>My <span>Projects</span></h3>
+      <Header>Portfolio</Header>
+      <SubHeader left="My" right="Projects"></SubHeader>
+
       <div className={styles['projects-cards']}>
         <div className={styles['project-card']}>
           <div className={styles['project-img']}>

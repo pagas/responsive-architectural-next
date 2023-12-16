@@ -7,27 +7,6 @@
     align-items: center;
 }
 
-.section-heading {
-    font-size: 6rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    color: #fff;
-    margin-bottom: 3rem;
-}
-
-.sub-heading {
-    font-size: 2rem;
-    color: var(--theme-color);
-    text-transform: uppercase;
-}
-
-.sub-heading span {
-    font-family: var(--caveat-font), cursive;
-    font-size: 3.5rem;
-    color: #fff;
-}
-
 .projects .section-border {
     height: 140rem;
     position: absolute;

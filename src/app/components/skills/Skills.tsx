@@ -1,6 +1,8 @@
 
 import styles from './skills.module.css'
 import sharedStyles from '../../styles/shared.module.css'
+import Header from '../UI/header/Header';
+import SubHeader from '../UI/sub-header/SubHeader';
 
 export default function Skills() {
   return (
@@ -8,10 +10,10 @@ export default function Skills() {
       <h1 className={sharedStyles['section-bg-heading']}>
         My Skills
       </h1>
-      <h1 className={styles['section-heading']}>
-        Professional Skills
-      </h1>
-      <h3 className={styles['sub-heading']}>My <span>Skills</span></h3>
+
+      <Header>Professional Skills</Header>
+      <SubHeader left="My" right="Skills"></SubHeader>
+
       <div className={`${sharedStyles['section-border']} ${styles['section-border']}`}></div>
       <div className={styles['skills-cards']}>
         <div className={styles['skills-card']}>
