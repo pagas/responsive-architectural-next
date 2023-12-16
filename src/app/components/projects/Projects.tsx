@@ -8,7 +8,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export default function Projects() {
   return (
     <section className={styles.projects}>
-      <h1 className={styles['section-bg-heading']}>
+      <h1 className={sharedStyles['section-bg-heading']}>
         My Projects
       </h1>
       <h1 className={styles['section-heading']}>

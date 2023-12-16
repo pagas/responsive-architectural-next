@@ -5,7 +5,7 @@ import sharedStyles from '../../styles/shared.module.css'
 export default function Skills() {
   return (
     <div className={styles.skills}>
-      <h1 className={styles['section-bg-heading']}>
+      <h1 className={sharedStyles['section-bg-heading']}>
         My Skills
       </h1>
       <h1 className={styles['section-heading']}>
