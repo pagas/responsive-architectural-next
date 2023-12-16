@@ -1,6 +1,6 @@
 /* hide havigation for now */
 .navigation {
-    position: absolute;
+    position: fixed;
     top: -8rem;
     right: -63rem;
     widows: 50rem;
