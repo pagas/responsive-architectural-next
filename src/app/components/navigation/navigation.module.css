@@ -14,10 +14,18 @@
     transition: all .6s;
 }
 
-.change .navigation {
+.is-opened .navigation {
     top: 0;
     right: 0;
     transform: rotateY(0);
+}
+
+.section-border {
+    width: .3rem;
+    height: 55rem;
+    background-color: #bbb;
+    margin-right: 10rem;
+    position: relative;
 }
 
 .navigation .section-border {
@@ -25,7 +33,7 @@
     visibility: hidden;
 }
 
-.change .navigation .section-border {
+.is-opened .navigation .section-border {
     opacity: 1;
     visibility: visible;
     transition: all .5s 0.7s;
@@ -52,11 +60,11 @@
     transition: transform .3s;
 }
 
-.change .line-1 {
+.is-opened .line-1 {
     transform: rotateZ(45deg) translate(.7rem, -.1rem);
 }
 
-.change .line-2 {
+.is-opened .line-2 {
     transform: rotateZ(-45deg) translate(.7rem, -.1rem);
 }
 
@@ -65,10 +73,10 @@
     flex-direction: column;
     opacity: 0;
     visibility: hidden;
-    
+
 }
 
-.change .nav-items {
+.is-opened .nav-items {
     opacity: 1;
     visibility: visible;
     transition: all .5s .7s;
