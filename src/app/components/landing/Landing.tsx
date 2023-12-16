@@ -3,13 +3,12 @@ import sharedStyles from '../../styles/shared.module.css'
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import SectionBg from '../UI/section-bg/SectionBg';
 
 export default function Landing() {
     return (
         <section className={styles.landing}>
-            <h1 className={styles['section-bg-heading']}>
-                Web Developer
-            </h1>
+            <SectionBg>Web Developer</SectionBg>
             <div className={styles.logo}>
                 <span>Web</span>
                 <span>Dev</span>

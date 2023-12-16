@@ -3,14 +3,12 @@ import styles from './skills.module.css'
 import sharedStyles from '../../styles/shared.module.css'
 import Header from '../UI/header/Header';
 import SubHeader from '../UI/sub-header/SubHeader';
+import SectionBg from '../UI/section-bg/SectionBg';
 
 export default function Skills() {
   return (
     <div className={styles.skills}>
-      <h1 className={sharedStyles['section-bg-heading']}>
-        My Skills
-      </h1>
-
+      <SectionBg>My Skills</SectionBg>
       <Header>Professional Skills</Header>
       <SubHeader left="My" right="Skills"></SubHeader>
 

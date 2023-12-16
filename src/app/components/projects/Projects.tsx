@@ -6,13 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Header from '../UI/header/Header';
 import SubHeader from '../UI/sub-header/SubHeader';
+import SectionBg from '../UI/section-bg/SectionBg';
 
 export default function Projects() {
   return (
     <section className={styles.projects}>
-      <h1 className={sharedStyles['section-bg-heading']}>
-        My Projects
-      </h1>
+      <SectionBg>My Projects</SectionBg>
       <Header>Portfolio</Header>
       <SubHeader left="My" right="Projects"></SubHeader>
 
