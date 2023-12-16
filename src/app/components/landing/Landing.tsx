@@ -6,7 +6,7 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 export default function Landing() {
     return (
         <section className={styles.landing}>
-            <h1 className={styles.sectionBgHeading}>
+            <h1 className={styles['section-bg-heading']}>
                 Web Developer
             </h1>
             <div className={styles.logo}>
