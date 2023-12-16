@@ -23,7 +23,7 @@
 }
 
 .sub-heading span {
-    font-family: "Caveat", cursive;
+    font-family: var(--caveat-font), cursive;
     font-size: 3.5rem;
     color: #fff;
 }
@@ -104,8 +104,8 @@
 }
 
 .project-description {
-    font-family: var(----caveat-font);
-    font-style: 2.2rem;
+    font-family: var(--caveat-font), cursive;
+    font-size: 2.2rem;
     color: #ccc;
 }
 
@@ -114,7 +114,7 @@
     width: 20rem;
     height: 4rem;
     background-color: transparent;
-    font-style: 1.8rem;
+    font-size: 1.8rem;
     text-align: left;
     color: #fff;
     border: none;
@@ -167,7 +167,7 @@
 }
 
 .skills-card p {
-    font-family: "Caveat", cursive;
+    font-family: var(--caveat-font), cursive;
     font-size: 2rem;
     color: #bbb;
     margin-bottom: 4rem;
