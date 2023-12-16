@@ -29,7 +29,7 @@ export default function Landing() {
                         <FontAwesomeIcon icon={faTwitter} className={styles.icon} />
                     </div>
                     <div className={styles.cv}>
-                        <button type="button" className={`${styles.btn} ${styles['cv-btn']}`}>Downdload cv</button>
+                        <button type="button" className={`${sharedStyles.btn} ${styles['cv-btn']}`}>Downdload cv</button>
                         <span>My Skills</span>
                     </div>
                 </div>
