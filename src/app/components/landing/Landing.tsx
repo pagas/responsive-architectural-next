@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import SectionBg from '../UI/section-bg/SectionBg';
+import ButtonOutline from '../UI/buttons/ButtonOutline';
 
 export default function Landing() {
     return (
@@ -28,7 +29,7 @@ export default function Landing() {
                         <FontAwesomeIcon icon={faTwitter} className={styles.icon} />
                     </div>
                     <div className={styles.cv}>
-                        <button type="button" className={`${sharedStyles.btn} ${styles['cv-btn']}`}>Downdload cv</button>
+                        <ButtonOutline className={styles['cv-btn']}>Downdload cv</ButtonOutline>
                         <span>My Skills</span>
                     </div>
                 </div>

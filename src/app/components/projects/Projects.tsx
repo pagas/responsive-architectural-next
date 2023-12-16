@@ -7,6 +7,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Header from '../UI/header/Header';
 import SubHeader from '../UI/sub-header/SubHeader';
 import SectionBg from '../UI/section-bg/SectionBg';
+import ButtonOutline from '../UI/buttons/ButtonOutline';
 
 export default function Projects() {
   return (
@@ -130,7 +131,7 @@ export default function Projects() {
             <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
           </button>
         </div>
-        <button className={`${sharedStyles.btn} ${styles.btn}`}>View More</button>
+        <ButtonOutline className={styles.btn}>View More</ButtonOutline>
       </div>
 
       <div className={`${sharedStyles['section-border']} ${styles['section-border']}`}></div>
