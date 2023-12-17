@@ -167,3 +167,38 @@
     right: -12.2rem;
     width: 12rem;
 }
+
+
+@media (max-width: 1700px) {
+    .skills .section-border {
+        left: 10rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    .skills {
+        height: 100%;
+        padding: 10rem 0 20rem 0;
+    }
+
+    .skills-cards {
+        width: 100rem;
+    }
+
+    .skills .section-border {
+        height: 85rem;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .skills-cards {
+        width: 60rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills-cards {
+        width: 55rem;
+    }
+}

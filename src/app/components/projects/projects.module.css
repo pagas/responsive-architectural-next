@@ -50,3 +50,25 @@
 .projects .btn {
     margin: 5rem 0 0 0;
 }
+
+
+
+@media (max-width: 1500px) {
+    .projects-cards {
+        width: 100rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .projects .section-border {
+        right: 10rem;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .projects-cards {
+        width: 60rem;
+    }
+}

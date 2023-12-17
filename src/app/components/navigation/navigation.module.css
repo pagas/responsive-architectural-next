@@ -3,7 +3,7 @@
     position: fixed;
     top: -8rem;
     right: -63rem;
-    widows: 50rem;
+    width: 50rem;
     height: 100vh;
     background-color: #31363d;
     z-index: 200;
@@ -94,4 +94,18 @@
 
 .nav-items a:hover {
     color: var(--theme-color);
+}
+
+@media (max-width: 1700px) {
+    .navigation {
+        right: -70rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .navigation {
+        width: 100%;
+        right: -100rem;
+        justify-content: center;
+    }
 }

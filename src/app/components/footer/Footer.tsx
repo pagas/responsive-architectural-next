@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <section className={styles.footer}>
 
-      <SocialMedia iconClassName={styles.icon}></SocialMedia>
+      <SocialMedia className={styles.icons} iconClassName={styles.icon}></SocialMedia>
       <div className={styles.copyright}>
         <p>© Web<span>Dev</span> All Rights Reserved. 2023</p>
       </div>

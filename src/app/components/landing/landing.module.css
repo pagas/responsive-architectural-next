@@ -175,3 +175,53 @@
     color: var(--theme-color);
     width: 50%;
 }
+
+@media (max-width: 1500px) {
+    .name {
+        font-size: 7rem;
+        width: 40rem;
+    }
+
+    .about {
+        width: 45rem;
+    }
+
+    .dev-img-wrapper {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .dev-work {
+        width: 20rem;
+        height: 7rem;
+        padding: 0 1rem;
+    }
+
+    .dev-work span:nth-child(1) {
+        font-size: 2rem;
+        width: 35%;
+    }
+
+    .dev-experience {
+        bottom: 22rem;
+        right: 25rem;
+    }
+
+    .dev-projects {
+        bottom: 14rem;
+        right: -4rem;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .developer-img {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner {
+      width: 70%;
+    }
+}
