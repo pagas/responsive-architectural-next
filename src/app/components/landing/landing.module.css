@@ -101,14 +101,6 @@
     margin-bottom: 5rem;
 }
 
-.social-media .icon {
-    font-size: 2.5rem;
-    color: #fff;
-    margin-right: 2rem;
-    text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
-    cursor: pointer;
-}
-
 .cv-btn::after {
     content: "";
     width: 5rem;

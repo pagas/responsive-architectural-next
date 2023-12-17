@@ -1,10 +1,9 @@
 import styles from './landing.module.css';
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import SectionBg from '../UI/section-bg/SectionBg';
 import ButtonOutline from '../UI/buttons/ButtonOutline';
 import SectionBorder from '../UI/section-border/SectionBorder';
+import SocialMedia from '../UI/social-media/SocialMedia';
 
 export default function Landing() {
     return (
@@ -21,11 +20,8 @@ export default function Landing() {
                     <h1 className={styles.name}><span>John</span>Smith</h1>
                     <h3 className={styles.prof}>I am <span>Web Developer</span></h3>
                     <p className={styles.about}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, sequi?</p>
-                    <div className={styles['social-media']}>
-                        <FontAwesomeIcon icon={faFacebook} className={styles.icon} />
-                        <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
-                        <FontAwesomeIcon icon={faTwitter} className={styles.icon} />
-                    </div>
+                    
+                    <SocialMedia className={styles['social-media']}></SocialMedia>
                     <div className={styles.cv}>
                         <ButtonOutline className={styles['cv-btn']}>Downdload cv</ButtonOutline>
                         <span>My Skills</span>
