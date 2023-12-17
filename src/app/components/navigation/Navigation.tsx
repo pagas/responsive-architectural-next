@@ -2,7 +2,7 @@
 "use client"
 import { useState } from 'react'
 import styles from './navigation.module.css'
-import sharedStyles from '../../styles/shared.module.css'
+import SectionBorder from '../UI/section-border/SectionBorder';
 
 export default function Navigation() {
   const [showNav, setShowNav] = useState(false);
@@ -18,7 +18,7 @@ export default function Navigation() {
         <div className={`${styles.line} ${styles['line-2']}`}></div>
       </div>
       <div className={styles.navigation}>
-        <div className={`${sharedStyles['section-border']} ${styles['section-border']}`}></div>
+        <SectionBorder className={styles['section-border']} />
         <div className={styles['nav-items']}>
           <a href="#">Home</a>
           <a href="#">About</a>

@@ -6,7 +6,7 @@
     widows: 50rem;
     height: 100vh;
     background-color: #31363d;
-    z-index: 100;
+    z-index: 200;
     display: flex;
     align-items: center;
     padding-left: 8rem;
