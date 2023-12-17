@@ -10,6 +10,7 @@ import SectionBg from '../UI/section-bg/SectionBg';
 import ButtonOutline from '../UI/buttons/ButtonOutline';
 import { Project } from '@/app/types/Project';
 import ProjectItem from './project-item/ProjectItem';
+import SectionBorder from '../UI/section-border/SectionBorder';
 
 export default function Projects() {
   const projects: Project[] = [
@@ -61,8 +62,7 @@ export default function Projects() {
 
         <ButtonOutline className={styles.btn}>View More</ButtonOutline>
       </div>
-
-      <div className={`${sharedStyles['section-border']} ${styles['section-border']}`}></div>
+      <SectionBorder className={styles['section-border']} />
     </section>
   )
 }
