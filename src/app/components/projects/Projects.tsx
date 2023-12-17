@@ -1,9 +1,5 @@
 
 import styles from './projects.module.css';
-import sharedStyles from '../../styles/shared.module.css';
-import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Header from '../UI/header/Header';
 import SubHeader from '../UI/sub-header/SubHeader';
 import SectionBg from '../UI/section-bg/SectionBg';

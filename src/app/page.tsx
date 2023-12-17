@@ -3,6 +3,7 @@ import Navigation from './components/navigation/Navigation'
 import Landing from './components/landing/Landing'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
+import Contact from './components/contact/Contact'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Landing></Landing>
       <Skills></Skills>
       <Projects></Projects>
+      <Contact></Contact>
 
 
 
