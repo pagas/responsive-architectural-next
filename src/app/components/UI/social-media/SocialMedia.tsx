@@ -6,8 +6,8 @@ export default function SocialMedia({
   iconClassName = '',
   className = ''
 }: {
-  iconClassName: string,
-  className: string
+  iconClassName?: string,
+  className?: string
 }) {
 
   return (
