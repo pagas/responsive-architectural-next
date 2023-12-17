@@ -50,7 +50,7 @@
     justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
-    z-index: 200;
+    z-index: 300;
 }
 
 .line {
