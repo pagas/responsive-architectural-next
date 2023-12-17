@@ -8,8 +8,48 @@ import Header from '../UI/header/Header';
 import SubHeader from '../UI/sub-header/SubHeader';
 import SectionBg from '../UI/section-bg/SectionBg';
 import ButtonOutline from '../UI/buttons/ButtonOutline';
+import { Project } from '@/app/types/Project';
+import ProjectItem from './project-item/ProjectItem';
 
 export default function Projects() {
+  const projects: Project[] = [
+    {
+      name: 'Contact Form',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
+      techs: ['HTML', 'CSS', 'JavaScript'],
+      image: 'project1.png'
+    },
+    {
+      name: 'Calculator',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
+      techs: ['HTML', 'CSS', 'JavaScript'],
+      image: 'project2.png'
+    },
+    {
+      name: 'Menu',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
+      techs: ['HTML', 'CSS', 'JavaScript'],
+      image: 'project3.png'
+    },
+    {
+      name: 'Website',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
+      techs: ['HTML', 'CSS', 'JavaScript'],
+      image: 'project4.png'
+    },
+    {
+      name: 'Cpmtact Form',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
+      techs: ['HTML', 'CSS', 'JavaScript'],
+      image: 'project5.png'
+    },
+    {
+      name: 'Profile Card',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
+      techs: ['HTML', 'CSS', 'JavaScript'],
+      image: 'project6.png'
+    },
+  ]
   return (
     <section className={styles.projects}>
       <SectionBg>My Projects</SectionBg>
@@ -17,120 +57,8 @@ export default function Projects() {
       <SubHeader left="My" right="Projects"></SubHeader>
 
       <div className={styles['projects-cards']}>
-        <div className={styles['project-card']}>
-          <div className={styles['project-img']}>
-            <Image src="/images/project1.png" alt="Project1" width={1920} height={1080} />
-          </div>
-          <div className={styles['techs']}>
-            <span>HTML, </span>
-            <span>CSS, </span>
-            <span>JavaScript, </span>
-          </div>
-          <h3 className={styles['project-name']}>
-            Contact Form
-          </h3>
-          <p className={styles['project-description']}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati nemo nulla sint nisi asperiores.
-          </p>
-          <button type="button" className={styles['project-btn']}>See Project
-            <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
-          </button>
-        </div>
-        <div className={styles['project-card']}>
-          <div className={styles['project-img']}>
-            <Image src="/images/project2.png" alt="Project1" width={1920} height={1080} />
-          </div>
-          <div className={styles['techs']}>
-            <span>HTML, </span>
-            <span>CSS, </span>
-            <span>JavaScript, </span>
-          </div>
-          <h3 className={styles['project-name']}>
-            Calculator
-          </h3>
-          <p className={styles['project-description']}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati nemo nulla sint nisi asperiores.
-          </p>
-          <button type="button" className={styles['project-btn']}>See Project
-            <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
-          </button>
-        </div>
-        <div className={styles['project-card']}>
-          <div className={styles['project-img']}>
-            <Image src="/images/project3.png" alt="Project1" width={1920} height={1080} />
-          </div>
-          <div className={styles['techs']}>
-            <span>HTML, </span>
-            <span>CSS, </span>
-            <span>JavaScript, </span>
-          </div>
-          <h3 className={styles['project-name']}>
-            Website
-          </h3>
-          <p className={styles['project-description']}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati nemo nulla sint nisi asperiores.
-          </p>
-          <button type="button" className={styles['project-btn']}>See Project
-            <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
-          </button>
-        </div>
-        <div className={styles['project-card']}>
-          <div className={styles['project-img']}>
-            <Image src="/images/project4.png" alt="Project1" width={1920} height={1080} />
-          </div>
-          <div className={styles['techs']}>
-            <span>HTML, </span>
-            <span>CSS, </span>
-            <span>JavaScript, </span>
-          </div>
-          <h3 className={styles['project-name']}>
-            Menu
-          </h3>
-          <p className={styles['project-description']}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati nemo nulla sint nisi asperiores.
-          </p>
-          <button type="button" className={styles['project-btn']}>See Project
-            <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
-          </button>
-        </div>
-        <div className={styles['project-card']}>
-          <div className={styles['project-img']}>
-            <Image src="/images/project5.png" alt="Project1" width={1920} height={1080} />
-          </div>
-          <div className={styles['techs']}>
-            <span>HTML, </span>
-            <span>CSS, </span>
-            <span>JavaScript, </span>
-          </div>
-          <h3 className={styles['project-name']}>
-            Contact Form
-          </h3>
-          <p className={styles['project-description']}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati nemo nulla sint nisi asperiores.
-          </p>
-          <button type="button" className={styles['project-btn']}>See Project
-            <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
-          </button>
-        </div>
-        <div className={styles['project-card']}>
-          <div className={styles['project-img']}>
-            <Image src="/images/project6.png" alt="Project1" width={1920} height={1080} />
-          </div>
-          <div className={styles['techs']}>
-            <span>HTML, </span>
-            <span>CSS, </span>
-            <span>JavaScript, </span>
-          </div>
-          <h3 className={styles['project-name']}>
-            Profile Card
-          </h3>
-          <p className={styles['project-description']}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati nemo nulla sint nisi asperiores.
-          </p>
-          <button type="button" className={styles['project-btn']}>See Project
-            <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
-          </button>
-        </div>
+        {projects.map((project, index) => <ProjectItem project={project} key={index}></ProjectItem>)}
+
         <ButtonOutline className={styles.btn}>View More</ButtonOutline>
       </div>
 
