@@ -8,7 +8,20 @@ import SocialMedia from '../UI/social-media/SocialMedia';
 export default function Landing() {
     return (
         <section className={styles.landing}>
-            <SectionBg>Web Developer</SectionBg>
+            <div className={styles['landing-img']}>
+                <Image src="/images/landing-bg.jpg" alt="Landing background" width={2000} height={1335} />
+            </div>
+            <div className={styles.banner}>
+                <h1 className={styles['banner-heading']}>
+                    <span>DREAM</span> HOUSE
+                </h1>
+                <div className={styles['banner-content']}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ipsum.</p>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+
+            {/* <SectionBg>Web Developer</SectionBg>
             <div className={styles.logo}>
                 <span>Web</span>
                 <span>Dev</span>
@@ -40,7 +53,7 @@ export default function Landing() {
                         <span>completed projects</span>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

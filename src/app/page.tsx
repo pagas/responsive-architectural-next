@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <Navigation></Navigation>
-      {/* <Landing></Landing>
-      <Skills></Skills>
+      <Landing></Landing>
+     {/* <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer> */}
