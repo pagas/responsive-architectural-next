@@ -1,5 +1,6 @@
 import styles from './landing.module.css';
 import Image from 'next/image';
+import ButtonOutline from '../UI/buttons/ButtonOutline';
 
 export default function Landing() {
     return (
@@ -13,7 +14,7 @@ export default function Landing() {
                 </h1>
                 <div className={styles['banner-content']}>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ipsum.</p>
-                    <button>READ MORE</button>
+                    <ButtonOutline className={styles.button} color='white'>READ ME</ButtonOutline>
                 </div>
             </div>
         </section>

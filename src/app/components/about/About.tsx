@@ -5,6 +5,7 @@ import SubHeader from '../UI/sub-header/SubHeader';
 import SectionBg from '../UI/section-bg/SectionBg';
 import SectionBorder from '../UI/section-border/SectionBorder';
 import Image from 'next/image';
+import ButtonOutline from '../UI/buttons/ButtonOutline';
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
       <div className={styles['about-left']}>
         <h1>WE ARE CREATING BUILDING DESIGN</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, asperiores!</p>
-        <button>READ MORE</button>
+        <ButtonOutline color='yellow' className={styles.button}>READ ME</ButtonOutline>
       </div>
       <div className={styles['about-right']}>
         <div className={styles.frame}></div>

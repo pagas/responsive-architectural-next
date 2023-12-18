@@ -39,13 +39,6 @@
 
 .about-left button {
     width: 18rem;
-    height: 5rem;
-    background-color: transparent;
-    border: .2rem solid var(--theme-color);
-    color: var(--theme-color);
-    font-size: 1.8rem;
-    letter-spacing: .1rem;
-    cursor: pointer;
 }
 
 .frame {
