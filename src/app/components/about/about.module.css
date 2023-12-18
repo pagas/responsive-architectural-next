@@ -1,0 +1,279 @@
+.about {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #313133;
+    ;
+}
+
+.about-img-wrapper {
+    width: 50rem;
+    height: 35rem;
+    position: absolute;
+    top: 8rem;
+    right: 33rem;
+}
+
+.about-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-left h1 {
+    font-size: 5rem;
+    color: #fff;
+    width: 50rem;
+    margin-bottom: 6rem;
+}
+
+.about-left p {
+    font-size: 2rem;
+    color: #fff;
+    width: 50rem;
+    margin-bottom: 5rem;
+}
+
+.about-left button {
+    width: 18rem;
+    height: 5rem;
+    background-color: transparent;
+    border: .2rem solid var(--theme-color);
+    color: var(--theme-color);
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.frame {
+    width: 50rem;
+    height: 35rem;
+    border: 3rem solid #555;
+    position: absolute;
+    top: 15rem;
+    right: 40rem;
+}
+
+.section-bottom {
+    position: absolute;
+    bottom: 2rem;
+    right: 33rem;
+    height: 12rem;
+    border-right: 1rem solid var(--theme-color);
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.section-bottom h1 {
+    font-family: var(--alfa-slab-one-font), cursive;
+    font-size: 6rem;
+    color: #555;
+    letter-spacing: .5rem;
+}
+
+.section-bottom h3 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+
+
+/* 
+.skills .section-border {
+    position: absolute;
+    left: 20rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.skills-cards {
+    width: 140rem;
+    margin: 8rem 0 0 10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-card {
+    width: 40rem;
+    height: 18rem;
+    margin: 3rem;
+    padding: 0 3rem;
+    position: relative;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.skill span {
+    font-size: 2rem;
+    color: #eee;
+}
+
+.skill span:nth-child(2) {
+    color: var(--theme-color);
+}
+
+.skills-card p {
+    font-family: var(--caveat-font), cursive;
+    font-size: 2rem;
+    color: #bbb;
+    margin-bottom: 4rem;
+}
+
+.skills-card-progress {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #1d222a;
+    border: .2rem solid #bbb;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1.25rem;
+}
+
+.skills-card-progress::before {
+    content: "";
+    height: .2rem;
+    background-color: var(--theme-color);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.skills-card-progress::after {
+    content: "";
+    height: .2rem;
+    background-color: #777;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.skills-card:nth-child(1) .skills-card-progress {
+    right: 10%;
+}
+
+.skills-card:nth-child(1) .skills-card-progress::before {
+    right: 2.5rem;
+    width: 33rem;
+}
+
+.skills-card:nth-child(1) .skills-card-progress::after {
+    right: -4.3rem;
+    width: 4rem;
+}
+
+
+.skills-card:nth-child(2) .skills-card-progress {
+    right: 15%;
+}
+
+.skills-card:nth-child(2) .skills-card-progress::before {
+    right: 2.5rem;
+    width: 31.5rem;
+}
+
+.skills-card:nth-child(2) .skills-card-progress::after {
+    right: -6.1rem;
+    width: 5.8rem;
+}
+
+
+.skills-card:nth-child(3) .skills-card-progress {
+    right: 20%;
+}
+
+.skills-card:nth-child(3) .skills-card-progress::before {
+    right: 2.5rem;
+    width: 29.5rem;
+}
+
+.skills-card:nth-child(3) .skills-card-progress::after {
+    right: -8.2rem;
+    width: 7.9rem;
+}
+
+
+.skills-card:nth-child(4) .skills-card-progress {
+    right: 30%;
+}
+
+.skills-card:nth-child(4) .skills-card-progress::before {
+    right: 2.5rem;
+    width: 25.5rem;
+}
+
+.skills-card:nth-child(4) .skills-card-progress::after {
+    right: -12.2rem;
+    width: 12rem;
+}
+
+
+.skills-card:nth-child(5) .skills-card-progress {
+    right: 20%;
+}
+
+.skills-card:nth-child(5) .skills-card-progress::before {
+    right: 2.5rem;
+    width: 29.5rem;
+}
+
+.skills-card:nth-child(5) .skills-card-progress::after {
+    right: -8.2rem;
+    width: 7.9rem;
+}
+
+.skills-card:nth-child(6) .skills-card-progress {
+    right: 30%;
+}
+
+.skills-card:nth-child(6) .skills-card-progress::before {
+    right: 2.5rem;
+    width: 25.5rem;
+}
+
+.skills-card:nth-child(6) .skills-card-progress::after {
+    right: -12.2rem;
+    width: 12rem;
+}
+
+
+@media (max-width: 1700px) {
+    .skills .section-border {
+        left: 10rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    .skills {
+        height: 100%;
+        padding: 10rem 0 20rem 0;
+    }
+
+    .skills-cards {
+        width: 100rem;
+    }
+
+    .skills .section-border {
+        height: 85rem;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .skills-cards {
+        width: 60rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills-cards {
+        width: 55rem;
+    }
+} */
