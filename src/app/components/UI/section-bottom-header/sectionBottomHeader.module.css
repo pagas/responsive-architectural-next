@@ -1,0 +1,21 @@
+.section-bottom {
+    position: absolute;
+    bottom: 2rem;
+    right: 33rem;
+    height: 12rem;
+    border-right: 1rem solid var(--theme-color);
+    text-align: right;
+    padding-right: 2rem;
+  }
+
+.section-bottom h1 {
+    font-family: var(--alfa-slab-one-font), cursive;
+    font-size: 6rem;
+    color: #555;
+    letter-spacing: .5rem;
+}
+
+.section-bottom h3 {
+    font-size: 2.5rem;
+    color: #fff;
+}

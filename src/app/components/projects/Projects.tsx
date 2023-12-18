@@ -1,64 +1,45 @@
 
 import styles from './projects.module.css';
-import Header from '../UI/header/Header';
-import SubHeader from '../UI/sub-header/SubHeader';
-import SectionBg from '../UI/section-bg/SectionBg';
-import ButtonOutline from '../UI/buttons/ButtonOutline';
 import { Project } from '@/app/types/Project';
 import ProjectItem from './project-item/ProjectItem';
-import SectionBorder from '../UI/section-border/SectionBorder';
+import SectionBottomHeader from '../UI/section-bottom-header/SectionBottomHeader';
 
 export default function Projects() {
   const projects: Project[] = [
     {
-      name: 'Contact Form',
+      title: 'Contact Form',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
-      techs: ['HTML', 'CSS', 'JavaScript'],
-      image: 'project1.png'
+      image: 'card1.jpg'
     },
     {
-      name: 'Calculator',
+      title: 'Calculator',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
-      techs: ['HTML', 'CSS', 'JavaScript'],
-      image: 'project2.png'
+      image: 'card2.jpg'
     },
     {
-      name: 'Menu',
+      title: 'Menu',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
-      techs: ['HTML', 'CSS', 'JavaScript'],
-      image: 'project3.png'
+      image: 'card3.jpg'
     },
     {
-      name: 'Website',
+      title: 'Website',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
-      techs: ['HTML', 'CSS', 'JavaScript'],
-      image: 'project4.png'
+      image: 'card4.jpg'
     },
     {
-      name: 'Cpmtact Form',
+      title: 'Cpmtact Form',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
-      techs: ['HTML', 'CSS', 'JavaScript'],
-      image: 'project5.png'
-    },
-    {
-      name: 'Profile Card',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatibus?',
-      techs: ['HTML', 'CSS', 'JavaScript'],
-      image: 'project6.png'
-    },
+      image: 'card5.jpg'
+    }
   ]
   return (
     <section className={styles.projects}>
-      <SectionBg>My Projects</SectionBg>
-      <Header>Portfolio</Header>
-      <SubHeader left="My" right="Projects"></SubHeader>
-
-      <div className={styles['projects-cards']}>
+      <h1 className={styles['projects-heading']}>LATEST PROJECTS</h1>
+      <div className={styles.cards}>
         {projects.map((project, index) => <ProjectItem project={project} key={index}></ProjectItem>)}
-
-        <ButtonOutline className={styles.btn}>View More</ButtonOutline>
       </div>
-      <SectionBorder className={styles['section-border']} />
+
+      <SectionBottomHeader title='AWESOME' subTitle='DESIGNS' className={styles.designs}></SectionBottomHeader>
     </section>
   )
 }

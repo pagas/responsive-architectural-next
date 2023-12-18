@@ -3,7 +3,7 @@ import styles from './contact.module.css'
 import Header from '../UI/header/Header';
 import SubHeader from '../UI/sub-header/SubHeader';
 import SectionBg from '../UI/section-bg/SectionBg';
-import SectionBorder from '../UI/section-border/SectionBorder';
+import SectionBorder from '../UI/section-bottom-header/SectionBottomHeader';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faUser, faEnvelope, faPhone, faAsterisk } from '@fortawesome/free-solid-svg-icons';
 

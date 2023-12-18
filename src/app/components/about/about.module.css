@@ -51,13 +51,7 @@
 }
 
 .section-bottom {
-    position: absolute;
-    bottom: 2rem;
     right: 33rem;
-    height: 12rem;
-    border-right: 1rem solid var(--theme-color);
-    text-align: right;
-    padding-right: 2rem;
 }
 
 .section-bottom h1 {

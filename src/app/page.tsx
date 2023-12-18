@@ -13,8 +13,9 @@ export default function Home() {
       <Navigation></Navigation>
       <Landing></Landing>
       <About></About>
-     {/* <Skills></Skills>
       <Projects></Projects>
+      
+     {/* <Skills></Skills>
       <Contact></Contact>
       <Footer></Footer> */}
 

@@ -1,11 +1,9 @@
 
 import styles from './about.module.css'
 import Header from '../UI/header/Header';
-import SubHeader from '../UI/sub-header/SubHeader';
-import SectionBg from '../UI/section-bg/SectionBg';
-import SectionBorder from '../UI/section-border/SectionBorder';
 import Image from 'next/image';
 import ButtonOutline from '../UI/buttons/ButtonOutline';
+import SectionBottomHeader from '../UI/section-bottom-header/SectionBottomHeader';
 
 export default function About() {
   return (
@@ -20,10 +18,8 @@ export default function About() {
         <div className={styles['about-img-wrapper']}>
           <Image src="/images/about.jpg" alt="About" width={5184} height={3456} />
         </div>
-        <div className={`${styles.experience} ${styles['section-bottom']}`}>
-          <h1>20 YEARS</h1>
-          <h3>EXPERIENCE WORK</h3>
-        </div>
+
+        <SectionBottomHeader title='20 YEARS' subTitle='EXPERIENCE WORK' className={styles['section-bottom']}></SectionBottomHeader>
       </div>
     </section>
   )
