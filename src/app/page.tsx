@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <Navigation></Navigation>
-      <Landing></Landing>
+      {/* <Landing></Landing>
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>
-      <Footer></Footer>
+      <Footer></Footer> */}
 
 
 

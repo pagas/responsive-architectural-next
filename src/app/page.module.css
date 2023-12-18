@@ -1,5 +1,5 @@
 .container {
   width: 100%;
-  height: 100%;
-  background: linear-gradient(#232932, #2c3138, #232932);
+  height: 100vh;
+  background: var(--dark-bg-color);
 }

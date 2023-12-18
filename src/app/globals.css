@@ -1,6 +1,7 @@
 :root {
-  --theme-color: #29a587;
-  --dark-blue: #1d222a;
+  --theme-color: #dba81b;
+  --dark-bg-color: #202020;
+  --light-bg-color: #3e3e41;
 }
 
 * {
@@ -9,7 +10,7 @@
   margin: 0;
   text-decoration: none;
   outline: none;
-  font-family: var(--rowdies-font);
+  font-family: var(--abel-font), sans-serif;
 }
 
 
@@ -17,7 +18,7 @@ html {
   font-size: 62.5%;
 }
 
-@media (max-width: 1700px) {
+/* @media (max-width: 1700px) {
   html {
     font-size: 57%;
   }
@@ -45,4 +46,4 @@ html {
   html {
     font-size: 35%;
   }
-}
+} */

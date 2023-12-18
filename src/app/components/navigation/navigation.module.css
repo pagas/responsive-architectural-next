@@ -1,5 +1,86 @@
+.navbar {
+    width: 100%;
+    height: 10rem;
+    background-color: var(--dark-bg-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.brand {
+    position: absolute;
+    top: 50%;
+    left: 8rem;
+    translate: 0 -50%;
+    display: flex;
+}
+
+.brand span {
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: .3rem;
+    margin: 1.5rem 0 0 3rem;
+}
+
+.logo1 {
+    width: 6rem;
+    height: 6rem;
+    border: .4rem solid var(--theme-color);
+}
+
+.logo2 {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--dark-bg-color);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.logo3 {
+    width: 5rem;
+    height: 5rem;
+    border: .4rem solid var(--theme-color);
+    background-color: var(--dark-bg-color);
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.search-bar {
+    position: absolute;
+    top: 50%;
+    right: 15rem;
+    translate: 0 -50%;
+}
+
+.search-bar input {
+    width: 45rem;
+    height: 4rem;
+    background-color: var(--light-bg-color);
+    border: none;
+    padding: 2rem 2rem 2rem 4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: .5rem;
+}
+
+.search-bar input::placeholder {
+    color: #ccc;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    translate: 0 -50%;
+    font-size: 1.6rem;
+    color: #ccc;
+}
+
+
 /* hide havigation for now */
-.navigation {
+/* .navigation {
     position: fixed;
     top: -8rem;
     right: -63rem;
@@ -108,4 +189,4 @@
         right: -100rem;
         justify-content: center;
     }
-}
+} */
