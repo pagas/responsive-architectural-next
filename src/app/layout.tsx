@@ -7,8 +7,6 @@ config.autoAddCss = false
 
 import './globals.css'
 
-
-
 const caveat = Caveat({
   subsets: ['latin'],
   weight: ['400', '700'],
@@ -35,9 +33,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${rowdies.variable} ${caveat.variable}`}>
-
-
-      {/* <body className={inter.className}>{children}</body> */}
       <body>{children}</body>
     </html>
   )
