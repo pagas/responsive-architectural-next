@@ -14,7 +14,7 @@ export default function Navigation() {
   }
 
   return (
-    <nav className={styles.navbar}>
+    <nav className={`${styles.navbar} ${showNav ? styles['is-opened'] : ''}`} >
       <div className={`${styles.brand} ${styles['brand-navbar']}`}>
         <div className={styles.logo1}></div>
         <div className={styles.logo2}></div>
@@ -26,13 +26,13 @@ export default function Navigation() {
         <input type="text" placeholder='What are you looking for?' />
         <FontAwesomeIcon icon={faMagnifyingGlass} className={styles.icon}></FontAwesomeIcon>
       </div>
-      <div className="hamburger-menu">
-        <div className="menu-icon">
-          <div className={styles['line-1']}></div>
-          <div className={styles['line-2']}></div>
-          <div className={styles['line-3']}></div>
+      <div className={styles['hamburger-menu']}>
+        <div className={styles['menu-icon']} onClick={openNavHandler}>
+          <div className={`${styles.line} ${styles['line-1']}`}></div>
+          <div className={`${styles.line} ${styles['line-2']}`}></div>
+          <div className={`${styles.line} ${styles['line-3']}`}></div>
         </div>
-        <div className="navigation">
+        <div className={styles.navigation}>
           <a href="#">HOME</a>
           <a href="#">ABOUT</a>
           <a href="#">PROJECTS</a>
@@ -43,24 +43,5 @@ export default function Navigation() {
       </div>
 
     </nav>
-    // <div className={showNav ? styles['is-opened'] : ''}>
-    //   <div className={styles['menu-icon']} onClick={openNavHandler}>
-    //     <div className={`${styles.line} ${styles['line-1']}`}></div>
-    //     <div className={`${styles.line} ${styles['line-2']}`}></div>
-    //   </div>
-    //   <div className={styles.navigation}>
-    //     <SectionBorder className={styles['section-border']} />
-    //     <div className={styles['nav-items']}>
-    //       <a href="#">Home</a>
-    //       <a href="#">About</a>
-    //       <a href="#">Projects</a>
-    //       <a href="#">Gallery</a>
-    //       <a href="#">Blog</a>
-    //       <a href="#">Clients</a>
-    //       <a href="#">Pricing</a>
-    //       <a href="#">Contacts</a>
-    //     </div>
-    //   </div>
-    // </div>
   )
 }
