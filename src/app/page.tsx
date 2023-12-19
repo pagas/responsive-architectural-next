@@ -6,6 +6,7 @@ import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import About from './components/about/About'
+import Customers from './components/customers/Customers'
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <Landing></Landing>
       <About></About>
       <Projects></Projects>
-      
+      <Customers></Customers>
+
      {/* <Skills></Skills>
       <Contact></Contact>
       <Footer></Footer> */}
