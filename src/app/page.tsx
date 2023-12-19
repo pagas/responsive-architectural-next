@@ -1,7 +1,6 @@
 import styles from './page.module.css'
 import Navigation from './components/navigation/Navigation'
 import Landing from './components/landing/Landing'
-import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
@@ -16,9 +15,10 @@ export default function Home() {
       <About></About>
       <Projects></Projects>
       <Customers></Customers>
-
-     {/* <Skills></Skills>
       <Contact></Contact>
+      
+      {/* 
+      
       <Footer></Footer> */}
 
 
