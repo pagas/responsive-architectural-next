@@ -3,6 +3,7 @@ import styles from './projects.module.css';
 import { Project } from '@/app/types/Project';
 import ProjectItem from './project-item/ProjectItem';
 import SectionBottomHeader from '../UI/section-bottom-header/SectionBottomHeader';
+import Header from '../UI/header/Header';
 
 export default function Projects() {
   const projects: Project[] = [
@@ -34,7 +35,8 @@ export default function Projects() {
   ]
   return (
     <section className={styles.projects}>
-      <h1 className={styles['projects-heading']}>LATEST PROJECTS</h1>
+
+      <Header className={styles['section-heading']}>LATEST PROJECTS</Header>
       <div className={styles.cards}>
         {projects.map((project, index) => <ProjectItem project={project} key={index}></ProjectItem>)}
       </div>

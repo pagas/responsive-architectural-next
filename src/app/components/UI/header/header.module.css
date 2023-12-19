@@ -1,16 +1,15 @@
 .section-heading {
-    font-size: 6rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    color: #fff;
-    margin-bottom: 3rem;
+  font-size: 8rem;
+  color: #fff;
+  margin: 0 0 10rem 9rem;
+  letter-spacing: .2rem;
 }
 
+/* 
 @media (max-width: 500px) {
 
     .section-heading {
       text-align: center;
     }
 
-}
+} */

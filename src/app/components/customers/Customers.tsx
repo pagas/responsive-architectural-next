@@ -4,11 +4,12 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import SectionBottomHeader from '../UI/section-bottom-header/SectionBottomHeader';
+import Header from '../UI/header/Header';
 
 export default function Customers() {
   return (
     <section className={styles.customers}>
-      <div className={styles['customers-heading']}>CUSTOMERS</div>
+      <Header className={styles['section-heading']}>CUSTOMERS</Header>
       <div className={styles['customers-content']}>
         <div className={styles['customers-card']}>
           <div className={styles['customers-card-image-container']}>
