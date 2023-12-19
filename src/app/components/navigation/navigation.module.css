@@ -84,7 +84,7 @@
     background-color: #0b0b14;
     position: absolute;
     /* -100vh not working in small window with devtools opened */
-    top: -100rem;
+    top: -100vh;
     left: 0;
     display: flex;
     flex-direction: column;
@@ -174,17 +174,31 @@
     transition: transform 0.3s;
 }
 
-/*
-@media (max-width: 1700px) {
-    .navigation {
-        right: -70rem;
+@media(max-width: 900px) {
+    .search-bar input {
+        width: 30rem;
     }
 }
 
-@media (max-width: 500px) {
-    .navigation {
-        width: 100%;
-        right: -100rem;
-        justify-content: center;
+@media(max-width: 600px) {
+    .navbar-brand span {
+        display: none;
     }
-} */
+
+    .navigation a {
+        font-size: 3rem;
+    }
+
+    .navigation a::before,
+    .navigation a::after {
+        width: 10rem;
+    }
+
+    .navigation a::before {
+        left: -13rem;
+    }
+
+    .navigation a::after {
+        right: -13rem;
+    }
+}

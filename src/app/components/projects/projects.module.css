@@ -18,22 +18,23 @@
     right: 12rem;
 }
 
-/* @media (max-width: 1500px) {
-    .projects-cards {
-        width: 100rem;
+@media(max-width: 1700px) {
+    .projects {
+        height: 100%;
     }
+
+    .cards {
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 25rem;
+    }
+
+
 }
 
-@media (max-width: 1200px) {
-    .projects .section-border {
-        right: 10rem;
+@media(max-width: 600px) {
+    .section-heading {
+        font-size: 6rem;
     }
 }
-
-
-
-@media (max-width: 700px) {
-    .projects-cards {
-        width: 60rem;
-    }
-} */

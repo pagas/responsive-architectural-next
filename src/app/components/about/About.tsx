@@ -19,7 +19,7 @@ export default function About() {
           <Image src="/images/about.jpg" alt="About" width={5184} height={3456} />
         </div>
 
-        <SectionBottomHeader title='20 YEARS' subTitle='EXPERIENCE WORK' className={styles['section-bottom']}></SectionBottomHeader>
+        <SectionBottomHeader title='20 YEARS' subTitle='EXPERIENCE WORK' className={`experience ${styles['section-bottom']}`}></SectionBottomHeader>
       </div>
     </section>
   )

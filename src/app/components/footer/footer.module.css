@@ -27,8 +27,22 @@
     color: #ccc;
 }
 
-/* @media (max-width: 500px) {
-    .icons {
-        display: none;
+@media(max-width: 1700px) {
+    .brand-footer {
+        left: 16%;
     }
-} */
+
+    .copyright {
+        right: 16%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .brand-footer {
+        left: 10%;
+    }
+
+    .copyright {
+        right: 10%;
+    }
+}

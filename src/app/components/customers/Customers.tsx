@@ -37,7 +37,7 @@ export default function Customers() {
         </div>
 
       </div>
-      <SectionBottomHeader title='CLIENT' subTitle='SAYS' className={styles['section-bottom']}></SectionBottomHeader>
+      <SectionBottomHeader title='CLIENT' subTitle='SAYS' className={`client ${styles['section-bottom']}`}></SectionBottomHeader>
 
 
     </section >
