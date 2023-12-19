@@ -8,44 +8,11 @@
     z-index: 100;
 }
 
-.brand {
+.navbar-brand {
     position: absolute;
     top: 50%;
     left: 8rem;
     translate: 0 -50%;
-    display: flex;
-}
-
-.brand span {
-    font-size: 3rem;
-    color: #fff;
-    letter-spacing: .3rem;
-    margin: 1.5rem 0 0 3rem;
-}
-
-.logo1 {
-    width: 6rem;
-    height: 6rem;
-    border: .4rem solid var(--theme-color);
-}
-
-.logo2 {
-    width: 5rem;
-    height: 5rem;
-    background-color: var(--dark-bg-color);
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-}
-
-.logo3 {
-    width: 5rem;
-    height: 5rem;
-    border: .4rem solid var(--theme-color);
-    background-color: var(--dark-bg-color);
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
 }
 
 .search-bar {
@@ -150,18 +117,23 @@
 .is-opened .navigation a:nth-child(1) {
     transition: all .3s .3s;
 }
+
 .is-opened .navigation a:nth-child(2) {
     transition: all .3s .4s;
 }
+
 .is-opened .navigation a:nth-child(3) {
     transition: all .3s .5s;
 }
+
 .is-opened .navigation a:nth-child(4) {
     transition: all .3s .6s;
 }
+
 .is-opened .navigation a:nth-child(5) {
     transition: all .3s .7s;
 }
+
 .is-opened .navigation a:nth-child(6) {
     transition: all .3s .8s;
 }

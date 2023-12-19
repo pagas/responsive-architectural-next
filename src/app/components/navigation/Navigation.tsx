@@ -4,6 +4,7 @@ import { useState } from 'react'
 import styles from './navigation.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import Logo from '../UI/logo/Logo';
 
 
 export default function Navigation() {
@@ -15,13 +16,9 @@ export default function Navigation() {
 
   return (
     <nav className={`${styles.navbar} ${showNav ? styles['is-opened'] : ''}`} >
-      <div className={`${styles.brand} ${styles['brand-navbar']}`}>
-        <div className={styles.logo1}></div>
-        <div className={styles.logo2}></div>
-        <div className={styles.logo3}></div>
-        <span>ARCHITECTURE</span>
 
-      </div>
+      <Logo className={styles['navbar-brand']} />
+
       <div className={styles['search-bar']}>
         <input type="text" placeholder='What are you looking for?' />
         <FontAwesomeIcon icon={faMagnifyingGlass} className={styles.icon}></FontAwesomeIcon>

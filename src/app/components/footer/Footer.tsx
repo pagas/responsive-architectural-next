@@ -1,18 +1,18 @@
 
-import SocialMedia from '../UI/social-media/SocialMedia'
+
 import styles from './footer.module.css'
+import Logo from '../UI/logo/Logo'
 
 export default function Footer() {
   return (
     <section className={styles.footer}>
+      <Logo size="small" className={styles['brand-footer']} />
 
-      <SocialMedia className={styles.icons} iconClassName={styles.icon}></SocialMedia>
+
       <div className={styles.copyright}>
-        <p>© Web<span>Dev</span> All Rights Reserved. 2023</p>
+        <p>© All Rights Reserved. Made by Code And Create</p>
       </div>
-      <div className={styles.author}>
-        <p>Made By <span>Code And Create</span></p>
-      </div>
+
     </section>
 
   )
